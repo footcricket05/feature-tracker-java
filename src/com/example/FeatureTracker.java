@@ -5,3 +5,7 @@ public class FeatureTracker {
         System.out.println("Feature Tracker App");
     }
 }
+
+public static void removeFeature(String feature) {
+    System.out.println("Feature removed: " + feature);
+}
